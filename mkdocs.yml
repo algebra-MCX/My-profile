@@ -1,4 +1,196 @@
-site_name: My site
+site_name: Chenxi Ma
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+  palette:
+   #primary: light blue
+    - scheme: default
+      toggle:
+        icon: material/brightness-3
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+
+  features: 
+    - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
+    - navigation.instant 
+    #- header.autohide  #自动隐藏
+    - navigation.instant.progress
+    # - navigation.prune #渲染的 HTML 中仅包含可见的导航项
+    - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
+    - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+    # - navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
+    - navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - navigation.footer #页脚将呈现在边栏中，但在移动设备上保持原样
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+    - search.share #搜索分享按钮
+    - navigation.expand # 打开Tab时左侧目录全部展开
+    - navigation.indexes #启用节索引页后，可以将文档直接附加到节
+    - content.tabs.link
+    - content.tooltips
+    - content.code.copy
+    - content.code.select
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate 
+
+
+edit_uri: edit/main/docs # 编辑按钮跳转的链接 
+repo_url: https://github.com/Shannon/Shannon.github.io # 右上角点击跳转的链接
+repo_name: Shannon.github.io # 右上角的名字
+
+
+extra:
+  social:
+      - icon: fontawesome/brands/weixin
+        link: https://pic1.zhimg.com/80/v2-8ad8e415b3eb139134b0373ff95c6846_1440w.webp
+      - icon: fontawesome/brands/telegram
+        link: https://t.me/Wcowin
+      - icon: fontawesome/brands/x-twitter 
+        link: https://twitter.com/wcowin_
+        name: Twitter
+      - icon: fontawesome/brands/github
+        link: https://github.com/Wcowin
+        name: Github
+      - icon: fontawesome/brands/bilibili
+        link: https://space.bilibili.com/1407028951/lists/4566631?type=series
+      - icon: fontawesome/solid/file-code
+        link: https://blog.csdn.net/m0_63203517?spm=1000.2115.3001.5343
+        name: CSDN    
+      - icon: fontawesome/regular/envelope
+        link: mailto:<wangkewen821@gmail.com> #联系方式
+        name: Email
+
+
+
+plugins:
+  - search
+  - blog
+
+
+extra:
+  tags:
+    <tag>: <identifier>
+
+      
+
+
+nav:
+  - Tech Stack:
+    - Blogs: Work/master_skills.md
+    - Projects: Work/Project.md
+
+  - Publications:
+    - Conferences: Work/publications.md
+
+  - CV:
+    - 个人简历: Work/CV.md
+
+  - Tags:
+    - 个人标签: tags.md
+
+
+extra_javascript:
+  # - javascripts/extra.js 
+  # - javascripts/bannerSlider.js
+  - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/javascripts/extra.js  # extra的cdn
+  # - javascripts/mathjax.js
+  - https://github.com/Wcowin/Wcowin.github.io/blob/main/docs/javascripts/mathjax.js
+  # - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # - javascripts/geren.js
+  # - javascripts/mathjax-config.js
+  # - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML
+  # - https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
+  # - https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js
+  # - javascripts/backbound1.js
+  # - https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/add-html-label-6e56ed67.min.js
+  # - https://res.zvo.cn/translate/translate.js  # Translate
+  - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/javascripts/view.js
+  
+
+
+extra_css:
+  - stylesheets/extra.css  
+  # - stylesheets/link.css  #友链
+  - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/link.css  #友链
+  # - stylesheets/card2.css
+  - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/card2.css
+  # - stylesheets/customize.css  #按钮圆角化
+  - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/customize.css  #按钮圆角化
+  # - stylesheets/flink.css
+  # - stylesheets/bannerSlider.css
+  # - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/extra.css # extra.css的CDN
+  # - stylesheets/extra1.css
+  # - stylesheets/video.css
+  # - https://unpkg.com/@waline/client@v2/dist/waline.css
+  # - https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.css #评论
+  # - ckplayer/css/ckplayer.css
+  # - https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css
+  # - https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css  #字体
+  # - https://static.zeoseven.com/zsft/292/main/result.css #字体
+  # - stylesheets/ziti.css  #字体
+  - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/ziti.css
+  # - https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Bold/result.css
+
+# watch:
+#   - docs
+#   - mkdocs.yml
+#   - docs/overrides
+
+
+
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+  # - callouts
+  - md_in_html
+  - markdown.extensions.abbr # 支持Markdown文件上方自定义标题标签等
+  - pymdownx.magiclink
+  - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format 
+  - pymdownx.arithmatex:  # latex支持
+      generic: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+
+

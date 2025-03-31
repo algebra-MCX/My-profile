@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mydomain.org/mysite/</loc>
+         <lastmod>2025-03-31</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/tags/</loc>
+         <lastmod>2025-03-31</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Work/CV/</loc>
+         <lastmod>2025-03-31</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Work/Project/</loc>
+         <lastmod>2025-03-31</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Work/master_skills/</loc>
+         <lastmod>2025-03-31</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Work/publications/</loc>
+         <lastmod>2025-03-31</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/blog/</loc>
+         <lastmod>2025-03-31</lastmod>
+    </url>
+</urlset>

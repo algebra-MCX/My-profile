@@ -86,12 +86,12 @@ $$q_t^c=W^{UQ}c_t^{Q}$$
 
 absolute position embedding是对每个token进行位置编码，relative position embedding是对每个token之间的相对位置进行编码
 
-#### absolute position embedding
+#### 绝对值位置编码
 比较简单，但是inference的时候，长句子的效果不好
 
-#### relative position embedding
+#### 相对位置编码
 长序列处理能力较强，计算复杂度较高，计算量大，泛化性好
 
-#### RoPE=absolute position embedding+relative position embedding
+#### RoPE=绝对位置编码+相对位置编码 
 
-MLA的思路是对每个token进行位置编码，使用的是相对位置编码
+MLA的思路是对每个token进行位置编码，使用的是相对位置编码，有效地解决

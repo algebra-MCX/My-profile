@@ -17,10 +17,9 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: 3.8.20
       - run: pip install mkdocs mkdocs-material mkdocs-pdf
       - run: mkdocs gh-deploy --force
-      
       - run: |
           echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
           export cache_id=$(date --utc '+%V')

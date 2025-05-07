@@ -18,10 +18,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      - run: |
+          echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+          export cache_id=$(date --utc '+%V')
+        shell: bash
       - uses: actions/cache@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
+          #disable next line error
+          key: mkdocs-material-${{ github.run_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-

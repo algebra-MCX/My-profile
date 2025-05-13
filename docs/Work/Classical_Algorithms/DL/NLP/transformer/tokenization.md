@@ -1,5 +1,6 @@
-**基于transformer的模型处理文本，需要把文本切分成一个个token，分词技术是解决模型输入预处理的问题
+**基于transformer的模型处理文本，需要把文本切分成一个个token，分词技术是解决模型输入预处理的问题**
 
+![Figure](../../../../images/algorithm_img/tokenization.png)
 ## 分词定义
 
 Tokenization将一个整体（如短语、句子、段落、语音和图像）切分成一个个token，让机器方便处理

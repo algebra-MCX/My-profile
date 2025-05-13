@@ -80,6 +80,15 @@ nav:
             - transformer:
               - Transformer: Work/Classical_Algorithms/DL/NLP/transformer/transformer.md
               - Tokenization: Work/Classical_Algorithms/DL/NLP/transformer/tokenization.md
+              - Tokenization补充: Work/Classical_Algorithms/DL/NLP/transformer/BPE.md
+              - Word Embedding:  Work/Classical_Algorithms/DL/NLP/transformer/word_embedding.md
+              - Positional Embedding: Work/Classical_Algorithms/DL/NLP/transformer/Pos_embed.md
+              - Attention: Work/Classical_Algorithms/DL/NLP/transformer/attention.md
+              - Attention(2): Work/Classical_Algorithms/DL/NLP/transformer/attention2.md
+              - FFN和激活函数: Work/Classical_Algorithms/DL/NLP/transformer/FFN_activation.md
+              - Mask: Work/Classical_Algorithms/DL/NLP/transformer/Mask.md
+              - Normalization: Work/Classical_Algorithms/DL/NLP/transformer/Normalization.md
+              - Encoder and Decoder: Work/Classical_Algorithms/DL/NLP/transformer/Enco_Deco.md
         - RL:
           - PPO: Work/Classical_Algorithms/RL/PPO.md
 
@@ -92,6 +101,7 @@ nav:
 
         - RM:
           - TTRL: Work/paper/read/RM/TTRL.md
+          - LCPO: Work/paper/read/RM/LCPO.md
 
 
 

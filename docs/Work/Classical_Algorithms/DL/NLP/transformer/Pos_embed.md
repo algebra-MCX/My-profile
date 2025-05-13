@@ -548,7 +548,7 @@ x_1 \sin \theta + x_2 \cos \theta
 
 - **二维表示**：
 
-\(f_{\{q, k\}}(\boldsymbol{x}_m, m) = 
+\(f_{\{q, k\}}(x_m, m) = 
 \begin{pmatrix}
 \cos m \theta & -\sin m \theta \\
 \sin m \theta & \cos m \theta
@@ -564,9 +564,9 @@ x_m^{(2)}
 
 - **拓展到n维表示**：
 
-\(f_{\{q, k\}}(\boldsymbol{x}_m, m) = \boldsymbol{R}^d_{\boldsymbol{\theta}, m} \boldsymbol{W}_{\{q, k\}} \boldsymbol{x}_m\)
+\(f_{\{q, k\}}(x_m, m) = R^d_{\theta, m} W_{\{q, k\}} x_m\)
 
-\(\boldsymbol{R}^d_{\boldsymbol{\theta}, m} = 
+\(R^d_{\theta, m} = 
 \begin{pmatrix}
 \cos m \theta_1 & -\sin m \theta_1 & 0 & 0 & \cdots & 0 & 0 \\
 \sin m \theta_1 & \cos m \theta_1 & 0 & 0 & \cdots & 0 & 0 \\
@@ -579,7 +579,7 @@ x_m^{(2)}
 
 - **实际上更简洁的n维表示**：
 
-\(\boldsymbol{R}^d_{\boldsymbol{\theta}, m} \boldsymbol{x} = 
+\(R^d_{\theta, m} x = 
 \begin{pmatrix}
 x_1 \\
 x_2 \\

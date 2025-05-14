@@ -54,15 +54,17 @@ extra:
       link: Academic-Profile/Work/images/wechat/wechat_qr.jpg  # 正确指向二维码
 
 
+extra:
+  tags:
+    <tag>: <identifier>
+
+      
+
 plugins:
   - search
   - blog
   - mkdocs-pdf
 
-
-extra:
-  tags:
-    <tag>: <identifier>
 
       
 
@@ -79,14 +81,14 @@ nav:
           - NLP:
             - transformer:
               - Transformer: Work/Classical_Algorithms/DL/NLP/transformer/transformer.md
-              - Tokenization: Work/Classical_Algorithms/DL/NLP/transformer/tokenization.md
+              - Tokenization分词器: Work/Classical_Algorithms/DL/NLP/transformer/tokenization.md
               - Tokenization补充: Work/Classical_Algorithms/DL/NLP/transformer/BPE.md
-              - Word Embedding:  Work/Classical_Algorithms/DL/NLP/transformer/word_embedding.md
-              - Positional Embedding: Work/Classical_Algorithms/DL/NLP/transformer/Pos_embed.md
-              - Attention: Work/Classical_Algorithms/DL/NLP/transformer/attention.md
+              - Word Embedding词嵌入:  Work/Classical_Algorithms/DL/NLP/transformer/word_embedding.md
+              - Positional Embedding位置编码: Work/Classical_Algorithms/DL/NLP/transformer/Pos_embed.md
+              - Attention注意力: Work/Classical_Algorithms/DL/NLP/transformer/attention.md
               - Attention(2): Work/Classical_Algorithms/DL/NLP/transformer/attention2.md
               - FFN和激活函数: Work/Classical_Algorithms/DL/NLP/transformer/FFN_activation.md
-              - Mask: Work/Classical_Algorithms/DL/NLP/transformer/Mask.md
+              - Mask掩码: Work/Classical_Algorithms/DL/NLP/transformer/Mask.md
               - Normalization: Work/Classical_Algorithms/DL/NLP/transformer/Normalization.md
               - Encoder and Decoder: Work/Classical_Algorithms/DL/NLP/transformer/Enco_Deco.md
         - RL:
@@ -145,6 +147,8 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/add-html-label-6e56ed67.min.js
   - https://res.zvo.cn/translate/translate.js  # Translate
   - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/javascripts/view.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 
+  - https://cdn.jsdelivr.net/npm/mathjax @3/es5/tex-mml-chtml.js
   
 
 

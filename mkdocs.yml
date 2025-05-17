@@ -91,19 +91,23 @@ nav:
               - Mask掩码: Work/Classical_Algorithms/DL/NLP/transformer/Mask.md
               - Normalization: Work/Classical_Algorithms/DL/NLP/transformer/Normalization.md
               - Encoder and Decoder: Work/Classical_Algorithms/DL/NLP/transformer/Enco_Deco.md
+
         - RL:
           - PPO: Work/Classical_Algorithms/RL/PPO.md
 
-
+      - LLM:
+        - Pre-training:
+          - Pre-training 概念(1): Work/LLM/Pre-training/Pre-training概念.md
       - paper解读:
         - tech_report:
           - Deepseek:
             - Deepseek v3: Work/paper/read/tech_report/Deepseek/DeepSeek_v3.md
             - Deepseek r1: Work/paper/read/tech_report/Deepseek/Deepseek_r1.md
-
         - RM:
           - TTRL: Work/paper/read/RM/TTRL.md
           - LCPO: Work/paper/read/RM/LCPO.md
+      
+
 
 
 

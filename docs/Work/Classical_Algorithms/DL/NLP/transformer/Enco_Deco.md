@@ -266,6 +266,7 @@ $$p_i = \frac{e^{z_i/T}}{\sum_{j=1}^{|V|}e^{z_j/T}}$$
 ### repetition_penalty等
 
 在实践中还会用到一些额外技巧，如：
+
 - **重复惩罚 (repetition_penalty)**：对近期已生成过的Token人为降低其概率，避免陷入重复；
 - **长度惩罚 (length_penalty)**：在机器翻译/摘要中鼓励生成更长或更短句子； 
 - **bad words ban**：禁止生成某些关键词。

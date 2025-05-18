@@ -96,8 +96,15 @@ nav:
           - PPO: Work/Classical_Algorithms/RL/PPO.md
 
       - LLM:
+        - LLM Architecture:
+          - Encoder-only:
+            - Encoder-only预训练任务: Work/LLM/LLM_Architecture/Encoder_only/预训练任务.md
+            - BERT: Work/LLM/LLM_Architecture/Encoder_only/BERT.md
+
+
         - Pre-training:
-          - Pre-training 概念(1): Work/LLM/Pre-training/Pre-training概念.md
+          - 大模型预训练全解析：定义、数据处理、流程及多阶段训练逻辑: Work/LLM/Pre-training/大模型预训练全解析：定义、数据处理、流程及多阶段训练逻辑.md
+
       - paper解读:
         - tech_report:
           - Deepseek:
@@ -106,14 +113,6 @@ nav:
         - RM:
           - TTRL: Work/paper/read/RM/TTRL.md
           - LCPO: Work/paper/read/RM/LCPO.md
-      
-
-
-
-
-          
-
-
 
   - Projects: Work/projects.md
 

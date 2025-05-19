@@ -1,4 +1,4 @@
-# Word Embeddind
+# Word Embedding
 
 **要让transformer模型理解每一个token，需要把词语转化为具有语义的向量（embedding）**
 

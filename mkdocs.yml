@@ -100,6 +100,11 @@ nav:
           - Encoder-only:
             - Encoder-only预训练任务: Work/LLM/LLM_Architecture/Encoder_only/预训练任务.md
             - BERT: Work/LLM/LLM_Architecture/Encoder_only/BERT.md
+            - Sentence-BERT: Work/LLM/LLM_Architecture/Encoder_only/Sentence_BERT.md
+
+        - AI infra:
+          - 大模型推理框架:
+            - 项目结构: Work/LLM/AI Infra/大模型推理框架/项目结构.md
 
 
         - Pre-training:

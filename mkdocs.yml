@@ -70,7 +70,7 @@ plugins:
 
 
 nav:
-  - Tech Stack:
+  - AI:
     - Blogs: 
       - 论文写作:
         - 如何找idea: Work/paper/method/blogs.md
@@ -102,10 +102,6 @@ nav:
             - BERT: Work/LLM/LLM_Architecture/Encoder_only/BERT.md
             - Sentence-BERT: Work/LLM/LLM_Architecture/Encoder_only/Sentence_BERT.md
 
-        - AI infra:
-          - 大模型推理框架:
-            - 项目结构: Work/LLM/AI Infra/大模型推理框架/项目结构.md
-
 
         - Pre-training:
           - 大模型预训练全解析：定义、数据处理、流程及多阶段训练逻辑: Work/LLM/Pre-training/大模型预训练全解析：定义、数据处理、流程及多阶段训练逻辑.md
@@ -119,7 +115,14 @@ nav:
           - TTRL: Work/paper/read/RM/TTRL.md
           - LCPO: Work/paper/read/RM/LCPO.md
 
-  - Projects: Work/projects.md
+  - 其他有用技术:
+    - git和github:
+      - git理解: Work/Others/git/git理解.md
+
+  - Projects: 
+    - AI infra:
+      - 大模型推理框架:
+        - 项目结构: Work/project/AI infra/大模型推理框架/项目结构.md
 
   - Publications:
     - Conferences: Work/publications.md
